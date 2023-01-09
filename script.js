@@ -2,7 +2,9 @@
 
 const app = Vue.createApp({
     data(){
-        return{message: 'Buongiornooooo Vietnam'}
+        return{message: 'Buongiornooooo Vietnam',
+               pic:""
+        }
     }
 });
 

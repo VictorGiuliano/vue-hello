@@ -10,6 +10,10 @@
 <body>
     <div id="root">
         <h1>{{ message }}</h1>
+        <input type="text" v-model.trim="pic">
+        <div>
+            <img v-bind:src="pic" alt="picture">
+        </div>
     </div>
     <script src ="script.js"></script>
 </body>
